@@ -8,8 +8,8 @@ from streamlit.components.v1 import html
 # dotenv is usuful for local development,
 # for deployment you can set the environment variables directly
 # in the deployment environment
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 # @st.cache_resource()
 # def load_db():
@@ -24,7 +24,7 @@ load_dotenv()
 #     return list(_db.sites.find({ "accepted": True }))
 
 st.set_page_config(page_title="WPAI Site Generator", layout="wide")
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = "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"
 # db = load_db()
 # websites = load_existing_sites(db)
 
