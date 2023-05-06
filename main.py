@@ -24,7 +24,7 @@ from streamlit.components.v1 import html
 #     return list(_db.sites.find({ "accepted": True }))
 
 st.set_page_config(page_title="WPAI Site Generator", layout="wide")
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = "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"
 # db = load_db()
 # websites = load_existing_sites(db)
 
