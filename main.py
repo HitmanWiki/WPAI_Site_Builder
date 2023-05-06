@@ -8,8 +8,8 @@ from streamlit.components.v1 import html
 # dotenv is usuful for local development,
 # for deployment you can set the environment variables directly
 # in the deployment environment
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 # @st.cache_resource()
 # def load_db():
